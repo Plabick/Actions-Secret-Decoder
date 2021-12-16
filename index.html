@@ -1,0 +1,399 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/sticky-footer.css" rel="stylesheet">
+  <title>Church Attack Watch</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<style>
+  .container {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid black; */
+    padding: 20px;
+    float: center;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    margin-bottom: 60px;
+    /* Margin bottom by footer height */
+  }
+
+  .list {
+    margin: auto;
+    margin-top: 5%;
+    float: center;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .table-container {
+    margin: auto;
+    width: fit-content;
+    float: center;
+  }
+</style>
+
+<body onload="load()">
+  <p>
+    <!-- <div class="header" id = "myHeader"><h2>Canadian Catholic Church Arson Tracker</h2></div> -->
+  </p>
+  <p>
+  <div class="container">
+    <p id='0101' class="display-1 fw-bold text-dark">0</p>
+    <p class="display-4 color text-dark"> Catholic Churches Attacked in 2021</p>
+  </div>
+  </p>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <div class=table-container>
+    <div class="table-responsive custom-table-responsive">
+      <table class="table custom-table">
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Church</th>
+            <th scope="col">Location</th>
+            <th scope="col">Damage</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>July 8, 2021</td>
+            <td>St. Mary's Catholic Church</td>
+            <td>Los Angeles, CA</td>
+            <td>Fire set in bell tower</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>July 7, 2021</td>
+            <td>Basilica of St. Lawrence</td>
+            <td>Asheville, NC</td>
+            <td>Statue of Jesus covered in red paint</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>July 4, 2021</td>
+            <td>St. Patrick's Catholic Church</td>
+            <td>Merced, CA</td>
+            <td>Man seen on camera using red paint to vandalize church buildings and statues</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>July 1, 2021</td>
+            <td>Holy Rosary Church</td>
+            <td>Jersey City, NJ</td>
+            <td>Statue of Blessed Virgin Mary holding baby Jesus vandalized and stolen</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>June 30, 2021</td>
+            <td>Holy Ghost Catholic Church</td>
+            <td>Denver, CO</td>
+            <td>Graffiti painted on exterior of church</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>June 19, 2021</td>
+            <td>St. Veronica's Catholic Church</td>
+            <td>Philadelphia, PA</td>
+            <td>Fire started at front door of church</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>June 8, 2021</td>
+            <td>Immaculate Conception Church</td>
+            <td>Queens, NY</td>
+            <td>Graffiti spray-painted on exterior of church</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>June 4, 2021</td>
+            <td>St. Charles Borromeo Catholic Church</td>
+            <td>Port Charlotte, FL</td>
+            <td>Man caught on camera vandalizing doors and stained glass</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 27, 2021</td>
+            <td>Our Lady of the Assumption Catholic Church</td>
+            <td>Leavenworth, WA</td>
+            <td>Audio equipment stolen and multiple fire extinguished deployed inside the church</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 17, 2021</td>
+            <td>Diocese of Brooklyn</td>
+            <td>Brooklyn, NY</td>
+            <td>Statue of baby Jesus decapitated</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 15, 2021</td>
+            <td>Our Lady of Mount Carmel Church</td>
+            <td>Staten Island, NY</td>
+            <td>Statues of Our Lady of Carmel and the Sacred Heart of Jesus vandalized</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 14, 2021</td>
+            <td>St. Athanasius Catholic Church</td>
+            <td>Brooklyn, NY</td>
+            <td>Large crucifix toppled and smashed, American flag burned</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 8, 2021</td>
+            <td>St. Thomas More Catholic Church</td>
+            <td>Narragansett, RI</td>
+            <td>Statue of Jesus Christ vandalized</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 8, 2021</td>
+            <td>Our Lady of Grace</td>
+            <td>Everett, MA</td>
+            <td>Rocks thrown through stained glass windows</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 6, 2021</td>
+            <td>Sacred Heart Catholic Church</td>
+            <td>Riverside, CA</td>
+            <td>Stained glass windows broken and statue of San Juan Diego vandalized</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 5, 2021</td>
+            <td>McCarren Park</td>
+            <td>Brooklyn, NY</td>
+            <td>Statue of Polish priest vandalized</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 4, 2021</td>
+            <td>Mission San Gabriel Archangel </td>
+            <td>Los Angeles, CA</td>
+            <td>Arson</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>May 2, 2021</td>
+            <td>St. Charles Borromeo Catholic Church</td>
+            <td>Waltham, MA</td>
+            <td>Statue of Jesus Christ decapitated</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>April 26, 2021</td>
+            <td>St. Elisabeth Catholic Church</td>
+            <td>Van Nuys, CA</td>
+            <td>Man smashed face of Our Lady of Guadalupe with a sledgehammer</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>April 17, 2021</td>
+            <td>Holy Rosary Catholic Church</td>
+            <td>Woodland, CA</td>
+            <td>Statues of the Blessed Virgin Mary, St. Mary Magdalene, and St. John, spray painted</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>April 17, 2021</td>
+            <td>St. John Vianney</td>
+            <td>Rancho Cordova, CA</td>
+            <td>Statue of the Blessed Virgin Mary spray painted</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>April 16, 2021</td>
+            <td>St. Mary's Cathedral</td>
+            <td>Fargo, ND</td>
+            <td>Face of statue of Jesus vandalized</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>April 15, 2021</td>
+            <td>Holy Rosary Church</td>
+            <td>Woodland, CA</td>
+            <td>Statues of three female saints vandalized</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>April 1, 2021</td>
+            <td>Abbey of Our Lady of Ephesus</td>
+            <td>Gower, MO</td>
+            <td>Gunshots fired at abbey of Benedictines of Mary, Queen of the Apostles</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>March 22, 2021</td>
+            <td>St. Charles Catholic Church</td>
+            <td>Spokane, WA</td>
+            <td>Fire at St. Charles Catholic School is being investigated as possible arson</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>March 12, 2021</td>
+            <td> St. Monica-St. Augustine Catholic Church</td>
+            <td>Boston, MA</td>
+            <td>Unkown substance inserted into locks, statue of the Blessed Virgin Mary knocked down</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>March 2, 2021</td>
+            <td>St. Thomas the Apostle Catholic Church</td>
+            <td>Ft. Worth, TX</td>
+            <td>Vandals damaged statues of the Blessed Virgin Mary and St. Thomas the Apostle</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>February 27, 2021</td>
+            <td>Basilica of Our Lady of Mt. Carmel</td>
+            <td>Youngstown, OH</td>
+            <td>Several statues vandalized</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>February 25, 2021</td>
+            <td>St. Mary of the Knobs Church</td>
+            <td>Floyds Knobs, IN</td>
+            <td>Chapel doors and statue of the Blessed Virgin Mary vandalized</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>February 16, 2021</td>
+            <td>St. Anthony of Padua Church</td>
+            <td>Denver, CO</td>
+            <td>Statue and flower pots around altar damaged </td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>February 10, 2021</td>
+            <td>St. Pius X Church</td>
+            <td>El Paso, TX</td>
+            <td>Three angel statues broken </td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>January 19, 2021</td>
+            <td>Rosary Cathedral</td>
+            <td>Toledo, OH</td>
+            <td>Doors burned, exterior tagged</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+          <tr scope="row">
+            <td>January 1, 2021</td>
+            <td>St. Patrick's Cathedral</td>
+            <td>New York, NY</td>
+            <td>Exterior tagged</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="js/counter.js"></script>
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css">
+</body>
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Updated July 14 9:15pm</span>
+  </div>
+</footer>
+</html>
